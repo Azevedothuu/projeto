@@ -1,0 +1,145 @@
+body {
+  align-items: center;
+  background-color: #f3e6d8;
+  display: flex;
+  justify-content: center;
+}
+
+.cartao {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: inline-block;
+  height: auto;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.cartao .foto {
+  display: flex;
+  justify-content: center;
+  max-height: 160px;
+  max-width: auto;
+}
+
+.cartao img {
+  border-radius: 4px;
+  width: 90%;
+}
+
+.content {
+  padding: 0px 15px 0px 15px;
+}
+
+.content .descricao {
+  margin-bottom: 20px;
+}
+
+.content .preparation {
+  background-color: #85264d0d;
+  border-radius: 8px;
+  padding-bottom: 2px;
+  padding-left: 9px;
+  padding-top: 10px;
+}
+
+.content .preparation h5 {
+  color: #7b284f;
+  font-family: Outfit;
+  margin: 0px;
+  padding-left: 4px;
+}
+
+.content .tittle {
+  margin-top: 12px;
+}
+
+.content .tittle h1 {
+  color: #000000;
+  font-family: "Young Serif";
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+li {
+  font-family: Outfit;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+li::marker {
+  color: #7b284f;
+}
+
+p {
+  color: #000000;
+  font-family: Outfit;
+  font-size: 11px;
+  margin: 0px;
+}
+
+strong {
+  color: #5c5757ea;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: outfit;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid #999999;
+  color: #80462f;
+  font-size: 12px;
+  padding: 8px 8px;
+}
+
+.topics {
+  color: #80462f;
+  font-family: "Young Serif";
+  font-size: 18px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 480px) {
+  body {
+    display: flex;
+    height: auto;
+    padding-top: 0px;
+  }
+  .cartao {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .cartao img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .content {
+    padding: 0px 11px 0px 11px;
+  }
+  .topics {
+    font-size: 32px;
+  }
+  h1,
+  .content .tittle h1 {
+    font-size: 32px;
+    padding-left: 10px;
+  }
+  h5 {
+    font-size: 32px;
+  }
+
+  p,
+  li,
+  td,
+  strong {
+    color: #3b3a38b6;
+    font-size: 18px;
+  }
+}
