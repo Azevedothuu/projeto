@@ -111,9 +111,10 @@ tr:last-child td {
     display: flex;
     height: auto;
     padding-top: 0px;
+    margin:0px;
   }
   .cartao {
-    padding-top: 10px;
+    padding-top: 0px;
     width: 100%;
   }
   .cartao img {
@@ -135,11 +136,19 @@ tr:last-child td {
     font-size: 32px;
   }
 
+  li{
+    margin-bottom: 8px;
+  }
+
   p,
   li,
   td,
   strong {
     color: #3b3a38b6;
     font-size: 18px;
+  }
+
+  table{
+    margin-bottom: 19px;
   }
 }
